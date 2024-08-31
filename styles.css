@@ -293,8 +293,6 @@ section {
 }
 
 
-
-
 /* home */
  
 .home{
@@ -429,6 +427,8 @@ section {
        color: var(--light-black);
        padding: 1rem 0;
        line-height: 2;
+       font-family: "Poppins", sans-serif;
+       font-weight: 400;
    } 
 
 
@@ -469,7 +469,7 @@ section {
      line-height: 2;
      padding: 1rem;
      font-family: "Poppins", sans-serif;
-     font-weight: 350;
+     font-weight: 400;
    }
 
    /* product */
@@ -612,7 +612,7 @@ section {
     line-height: 2;
     padding: 1rem 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .icons{
@@ -682,7 +682,7 @@ div img{
     color: var(--black);
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-     font-weight: 350;
+     font-weight: 400;
 }
 
 
