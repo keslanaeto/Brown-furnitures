@@ -1,5 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+ 
 :root {
     --main-color: #0f172a;
     --primary-color: #e11d48;
@@ -11,7 +13,9 @@
 }
 
 * {
-    font-family: "Poppins", "sans-serif";
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -245,6 +249,7 @@ section {
     text-transform: capitalize;
     color: var(--light-black);
     padding-bottom: 0.5rem;
+    
 }
 
 .account-form form .box {
@@ -319,9 +324,10 @@ section {
 }
 
 .slide:nth-child(1) { background: url(photos/background4.jpg); }
-        .slide:nth-child(2) { background: url(photos/gray.jpg); }
+        .slide:nth-child(2) { background: url(photos/blog1.jpg); }
         .slide:nth-child(3) { background: url(photos/background2.jpg); }
         .slide:nth-child(4) { background: url(photos/background.jpg);}
+    
         .nav-button {
             position: absolute;
             top: 50%;
@@ -346,7 +352,9 @@ section {
      padding: 10px;
      background: rgba(0, 0, 0, 0.5);
      border-radius: 8px; 
-            text-align: center;
+     text-align: center;
+     font-style: normal;
+    
         }
 
         .dot {
@@ -451,6 +459,7 @@ section {
    .box h3{
      font-size: 2.3rem;
      color: var(--main-color);
+ 
    }
 
    .box p{
@@ -459,6 +468,8 @@ section {
      color: var(--light-black);
      line-height: 2;
      padding: 1rem;
+     font-family: "Poppins", sans-serif;
+     font-weight: 350;
    }
 
    /* product */
@@ -530,6 +541,7 @@ section {
    .boxs h3{
       color: var(--black);
       font-size: 2rem;
+      
    }
 
    .box-containers .stars{
@@ -591,6 +603,7 @@ section {
 .contents h3{
     font-size: 2rem;
     color: var(--main-color);
+    
 }
 
 .contents p{
@@ -598,6 +611,8 @@ section {
     color: var(--black);
     line-height: 2;
     padding: 1rem 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
 }
 
 .icons{
@@ -650,6 +665,7 @@ div img{
    flex: 1 1 40rem;
    border: 0.1rem solid var(--main-color);
    padding: 2rem;
+   
 }
 
 .contact .rows form h3{
@@ -657,13 +673,16 @@ div img{
     text-align: center;
     padding-bottom: 1rem;
     color: var(--main-color);
+    
 }
 
 .contact .rows form span{
     display: block;
     padding-bottom: 1rem;
     color: var(--black);
-    font-size: i.6rem;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+     font-weight: 350;
 }
 
 
@@ -677,6 +696,7 @@ div img{
     text-transform: none;
     padding: .5rem 1rem;
     margin-bottom: 1rem;
+    
 }
 
 .rows form textarea{
